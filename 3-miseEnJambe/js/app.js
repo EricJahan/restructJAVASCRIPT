@@ -1,6 +1,6 @@
 //test de l'entrée du champ de texte
 $(".validertest").on("click", function () {
-    var color = $(".user-entry").val();
+    let color = $(".user-entry").val();
     alert(color);
     // delete color
 })
@@ -12,8 +12,8 @@ $(".validertest").on("click", function () {
 //  */
 
 $(".create").on("click", function () {
-    var div = document.createElement('div');
-    var color = $(".user-entry").val();
+    let div = document.createElement('div');
+    let color = $(".user-entry").val();
 
     div.className = color;
     div.style.height = "50px";
@@ -24,7 +24,7 @@ $(".create").on("click", function () {
 
 //Le bouton Supprimer détruit toutes les DIV de la couleur mentionnée dans le champ INPUT
 $(".delete").on("click", function () {
-    var color = $(".user-entry").val();
+    let color = $(".user-entry").val();
     $('#cadre > div').remove(`.${color}`);
 })
 
@@ -35,7 +35,7 @@ $(".destroy").on("click", function () {
 
 //Le bouton Ecrire ajoute dans toutes les DIV contenues dans le #cadre le texte présent dans le INPUT.
 $(".write").on("click", function () {
-    var color = $(".user-entry").val();
+    let color = $(".user-entry").val();
     $("#cadre>div").text(color);
 })
 
@@ -77,22 +77,22 @@ $("#cadre").on("mouseover", ".yellow", function(){
 
 //non fonctionnel
 $("#cadre").on("click","div", function(){
-    var countYellow = $("#cadre").find(".yellow").length;
+    let countYellow = $("#cadre").find(".yellow").length;
     $(this).dialog({
         title: "Nombre de blocs jaunes : " +countYellow,
         modal: true,
     });
-    var countGreen = $("#cadre").find(".green").length;
+    let countGreen = $("#cadre").find(".green").length;
     $(this).dialog({
         title: "Nombre de blocs verts : " +countGreen,
         modal: true,
     });
-    var countBlue = $("#cadre").find(".blue").length;
+    let countBlue = $("#cadre").find(".blue").length;
     $(this).dialog({
         title: "Nombre de blocs bleus : " +countBlue,
         modal: true,
     });
-    var countRed = $("#cadre").find(".red").length;
+    let countRed = $("#cadre").find(".red").length;
     $(this).dialog({
         title: "Nombre de blocs rouges : " +countBlue,
         modal: true,
