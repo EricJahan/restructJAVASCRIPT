@@ -2,4 +2,4 @@
 
 $(".panda").on("click", function(){
     alert($(this).attr("data-type") + " & " + $(this).attr("data-tendance"));
-})  
+})

@@ -4,7 +4,6 @@
  * replacant le contenu du span #username
  */
 
-console.log('have fun !');
 
 //test de récup des valeurs entrées
 $(".validate").on("click", function(){
@@ -12,7 +11,9 @@ $(".validate").on("click", function(){
     let lastName = $("#last_name").val();
     let city = $("#city").val();
 
+    $("#first_name, #last_name, #city" ).val("");
+
     console.log("Bienvenue " + firstName + " " + lastName + " de " + city + ".");
 
-    $("body h1>span").text(firstName + " " + lastName + " de " + city + ".");
+    $("h1 > span").text(firstName + " " + lastName + " de " + city + ".");
 })
