@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: wheat;
+    background: center/cover no-repeat;
+}
+
+html {
+    background: lightblue;
+}
+
+.btn {
+    position: relative;
+    margin: 10px;
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+    min-width: 150px;
+    border-radius: 3px;
+    font: 1em arial, sans-serif;
+    color: white;
+    background: rebeccapurple;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn::before,
+.btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 75px;
+    background:black;
+    opacity: .4;
+    transition: all ease-in .3s;
+}
+.btn::before{
+    left: -50%;
+}
+.btn::after{
+    right: -50%;
+}
+.btn:hover::before{
+    left: 50%;
+}
+.btn:hover::after{
+    right: 50%;
+}

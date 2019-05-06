@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    font-size: 400%;
+}
+
+#chrono {
+    font-size: 40px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #a2a2a2;
+}
+
+.chrono-green {
+    color: green;
+}
+.chrono-blue{
+    color: blue;
+}
+.chrono-red{
+    color: red;
+}
+.chrono-purple{
+    color: purple;
+}
+.chrono-pink{
+    color: pink;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+
+.back-green{
+    background-color: green;
+}
+
+.back-blue{
+    background-color: blue;
+}
+
+.back-red{
+    background-color: red;
+}
+
+.back-gray{
+    background-color: gray;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    background-color: lightcyan;
+}
+#cadre {
+    width: 800px;
+    height: 600px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#cadre > div {
+    background-color: yellow;
+    border: 1px solid darkgreen;
+    margin: 5px auto;
+}

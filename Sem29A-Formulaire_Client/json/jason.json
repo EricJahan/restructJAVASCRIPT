@@ -1,0 +1,40 @@
+{
+    "gens": [
+        {
+            "id": "0",
+            "firstName": "- Select -",
+            "lastName": "",
+            "age": "",
+            "work": "",
+            "mail": "",
+            "phone": ""
+        },
+        {
+            "id": "1",
+            "firstName": "Robert",
+            "lastName": "Barathéon",
+            "age": "54",
+            "work": "Roi",
+            "mail": "none",
+            "phone": "none"
+        },
+        {
+            "id": "2",
+            "firstName": "Arthur",
+            "lastName": "Raimbaux",
+            "age": "32",
+            "work": "Ecrivain",
+            "mail": "jelovelesoeufs@wanadoo.fr",
+            "phone": "12-12-34-56-78"
+        },
+        {
+            "id": "3",
+            "firstName": "Sansa",
+            "lastName": "Stark",
+            "age": "16",
+            "work": "Sans-Visage",
+            "mail": "jeaipadmail@lesmorts.com",
+            "phone": "98-98-76-54-32"
+        }
+    ]
+}
